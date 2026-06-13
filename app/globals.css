@@ -19,7 +19,7 @@
     -moz-osx-font-smoothing: grayscale;
   }
   body {
-    background: var(--color-slate-400);
+    background: var(--color-slate-900);
   }
 }
 
@@ -53,6 +53,7 @@
   font-size: 0.4375rem;
   line-height: normal;
   letter-spacing: 2.959px;
+  text-transform: uppercase;
   @variant md {
     font-size: 0.875rem;
   }
