@@ -31,13 +31,12 @@ export default function Countdown() {
           <svg
             viewBox="0 0 70 71"
             className="absolute inset-0 h-full w-full"
-            preserveAspectRatio="none"
           >
             <rect width="70" height="71" rx="8" fill="#191A23" />
             <rect width="70" height="65" rx="4" fill="#343650" />
           </svg>
 
-          <div className="absolute inset-x-0 top-0 flex h-[65px] md:h-[130px] items-center justify-center">
+          <div className="absolute inset-0 flex h-[65px] md:h-[130px] items-center justify-center">
             <span className="text-preset-2">
               {String(days).padStart(2, '0')}
             </span>
@@ -51,13 +50,12 @@ export default function Countdown() {
           <svg
             viewBox="0 0 70 71"
             className="absolute inset-0 h-full w-full"
-            preserveAspectRatio="none"
           >
             <rect width="70" height="71" rx="8" fill="#191A23" />
             <rect width="70" height="65" rx="4" fill="#343650" />
           </svg>
 
-          <div className="absolute inset-x-0 top-0 flex h-[65px] md:h-[130px] items-center justify-center">
+          <div className="absolute inset-0 flex h-[65px] md:h-[130px] items-center justify-center">
             <span className="text-preset-2">
               {String(hours).padStart(2, '0')}
             </span>
@@ -71,13 +69,12 @@ export default function Countdown() {
           <svg
             viewBox="0 0 70 71"
             className="absolute inset-0 h-full w-full"
-            preserveAspectRatio="none"
           >
             <rect width="70" height="71" rx="8" fill="#191A23" />
             <rect width="70" height="65" rx="4" fill="#343650" />
           </svg>
 
-          <div className="absolute inset-x-0 top-0 flex h-[65px] md:h-[130px] items-center justify-center">
+          <div className="absolute inset-0 flex h-[65px] md:h-[130px] items-center justify-center">
             <span className="text-preset-2">
               {String(minutes).padStart(2, '0')}
             </span>
@@ -91,12 +88,11 @@ export default function Countdown() {
           <svg
             viewBox="0 0 70 71"
             className="absolute inset-0 h-full w-full"
-            preserveAspectRatio="none"
           >
             <rect width="70" height="71" rx="8" fill="#191A23" />
             <rect width="70" height="65" rx="4" fill="#343650" />
           </svg>
-          <div className="absolute inset-x-0 top-0 flex h-[65px] md:h-[130px] items-center justify-center">
+          <div className="absolute inset-0 flex h-[65px] md:h-[130px] items-center justify-center">
             <span className="text-preset-2">
               {String(seconds).padStart(2, '0')}
             </span>
