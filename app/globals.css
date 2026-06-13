@@ -1,26 +1,59 @@
 @import 'tailwindcss';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-pink: hsl(345 95.2% 67.6%);
+  --color-slate-grey: hsl(237 18.1% 58.8%);
+  --color-purplish-blue: hsl(236 21.2% 25.9%);
+  --font-sans: var(--font-red-hat-text);
+  --spacing-100: 0.5rem; /* 8px */
+  --spacing-200: 1rem; /* 16px */
+  --spacing-300: 1.5rem; /* 24px */
+  --spacing-400: 2rem; /* 32px */
+  --spacing-1000: 5rem; /* 80px */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    @apply antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    background: var(--color-slate-400);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@utility text-preset-1 {
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: normal;
+  letter-spacing: 6.136px;
+  text-transform: uppercase;
+  @variant md {
+    font-size: 1.25rem;
+  }
+}
+
+@utility text-preset-2 {
+  color: var(--color-light-pink);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 71px;
+  letter-spacing: -1.08px;
+  @variant md {
+    font-size: 5rem;
+    letter-spacing: -2.4px;
+  }
+}
+
+@utility text-preset-3 {
+  color: var(--color-slate-grey);
+  font-weight: 700;
+  font-size: 0.4375rem;
+  line-height: normal;
+  letter-spacing: 2.959px;
+  @variant md {
+    font-size: 0.875rem;
+  }
 }
