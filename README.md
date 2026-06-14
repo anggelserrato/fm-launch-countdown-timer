@@ -37,12 +37,13 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- Flexbox & CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
+- [React 19](https://react.dev/) - JS library
+- [Next.js 16](https://nextjs.org/) - React framework (App Router)
+- [Tailwind CSS v4](https://tailwindcss.com/) - Utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org/) - For static type checking
+- [Simple Icons](https://simpleicons.org/) - For accurate brand SVG icons
 
 ### Useful resources
 
