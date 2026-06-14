@@ -5,6 +5,9 @@
   --color-light-pink: hsl(345 95.2% 67.6%);
   --color-slate-grey: hsl(237 18.1% 58.8%);
   --color-purplish-blue: hsl(236 21.2% 25.9%);
+  --color-slate-700: hsl(236 21% 26%);
+  --color-slate-800: hsl(235 16% 14%);
+  --color-slate-900: hsl(234 17% 12%);
   --font-sans: var(--font-red-hat-text);
   --spacing-100: 0.5rem; /* 8px */
   --spacing-200: 1rem; /* 16px */
@@ -17,9 +20,6 @@
   html {
     @apply antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-  body {
-    background: var(--color-slate-900);
   }
 }
 
