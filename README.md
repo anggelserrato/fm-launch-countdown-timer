@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img width="1920" height="1440" alt="launch countdown timer shots" src="https://github.com/user-attachments/assets/6c8d2bdd-8fc7-4af9-a046-f6aff5fa861b" />
 
 ### Links
 
